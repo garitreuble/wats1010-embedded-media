@@ -4,7 +4,164 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+	padding: 0;
+	background-color: #15a7da;
+}
 
- html {
-     color: green;
+body {
+	margin: 0;
+}
+
+header {
+	 min-height: 400px;
+	 background-image: url('../img/official_header.jpg');
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
  }
+
+p.subtitle {
+	text-align: center;
+	color: black;
+	font-style: italic;
+	font-size: large;
+	position: absolute;
+	left: 50px;
+	top: 300px;
+}
+
+nav ul li {
+	font-size: medium;
+	text-transform: uppercase;
+	display: inline;
+	color: white;
+	
+}
+
+nav li {
+	position: left;
+}
+
+a {
+	color: white;
+	font-family: arial;
+}
+
+.main-nav a {
+	color: black;
+}
+
+.main-nav {
+	position: absolute;
+	left: 26px;
+	top: 321px;
+}
+
+
+#social {
+	background: #15a7da;
+	position: absolute;
+	top: 75px;
+	right: 0;
+	width: 25px;
+	transition: 2s width;
+	padding-left: 10px;
+	margin-left:100px;
+	color: white;
+}
+
+#social:hover {
+	width: 250px;
+	
+}
+
+#social ul {
+	list-style-type: none;
+	padding-left: 30px;
+	padding-bottom:30px;
+	padding-top: 30px;
+}
+
+
+#social li {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+h2 {
+	font-family: arial;
+	color: white;
+	text-transform: uppercase;
+	margin-left: 15px;
+	padding-top: 20px;
+	font-size: 300%;
+}
+
+h3 {
+	font-family: arial;
+	color: white;
+	margin-left: 15px;
+}
+
+p {
+	margin-left: 15px;
+	color: white;
+	font-family: arial;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+h2.rotate {
+	position: left;
+	font-size: 250%; !important
+	margin: 0; !important
+	padding: 0; !important
+}
+
+.rotate {
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.lead {
+	font-size: 200%;
+	line-height: 2;
+}
+
+.weybec-people {
+	list-style-type: none;
+}
+
+.headshot {
+	width: 250px;
+	height: auto;
+}
+
+audio {
+	padding-left: 15px;
+}
+
+.download-button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+
